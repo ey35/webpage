@@ -121,5 +121,17 @@ SWEET/I THOUGHT YOU WANTED TO DANCE
         </div>
     </div>
     <script src="script.js"></script>
+  <script>
+        window.addEventListener('load', function() {
+            var iframes = document.querySelectorAll('.song iframe');
+            iframes.forEach(function(iframe) {
+                iframe.onload = function() {
+                    iframe.parentNode.classList.add('loaded');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
 </body>
 </html>
