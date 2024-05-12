@@ -1,27 +1,44 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
-header {
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.tabs {
+    overflow: hidden;
+}
+
+.tablinks {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
-main {
-    padding: 20px;
+.tabcontent {
+    display: none;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.song {
+    margin-top: 20px;
 }
+
+.song iframe {
+    border-radius: 12px;
+}
+
+.song p {
+    color: #666;
+    font-style: italic;
+}
+
+/* Add more styles as needed */
