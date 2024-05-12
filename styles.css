@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Use a nice font */
+    font-weight: 400; /* Regular font weight */
     margin: 0;
     padding: 0;
     background-color: #1e1e1e; /* Dark background color */
@@ -40,8 +41,15 @@ h1 {
 
 .song iframe {
     border-radius: 12px;
+    opacity: 0; /* Hide initially */
+    transition: opacity 0.3s ease-in-out; /* Add transition for smoother loading */
+}
+
+.song.loaded iframe {
+    opacity: 1; /* Show when loaded */
 }
 
 .song p {
     color: #ccc; /* Description text color */
+    font-weight: bold; /* Bold text */
 }
