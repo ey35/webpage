@@ -1,120 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyler, The Creator Discography Explained</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> <!-- Load Roboto font -->
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif; /* Use Roboto font */
-            font-weight: 400; /* Regular font weight */
-            margin: 0;
-            padding: 0;
-            background-color: #000; /* Black background color */
-            color: #fff; /* Text color */
-            text-align: center;
-        }
+Sure, here's the updated CSS for improved UI:
 
-        h1 {
-            margin-top: 40px;
-            margin-bottom: 20px;
-            color: #ff5722; /* Title text color */
-        }
+```css
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 400; /* Regular font weight */
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background color */
+    color: #fff; /* Text color */
+    text-align: center;
+}
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ff5722; /* Title text color */
+    text-align: center; /* Center title */
+    font-size: 36px; /* Larger font size for title */
+}
 
-        .tabs {
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-        .tablinks {
-            background-color: #333; /* Dark gray color */
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            border-radius: 5px;
-        }
+.tabs {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-        .tablinks:hover {
-            background-color: #555; /* Slightly lighter gray color on hover */
-        }
+.tablinks {
+    background-color: #333; /* Dark gray color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size */
+}
 
-        .tabcontent {
-            display: none;
-        }
+.tablinks:hover {
+    background-color: #555; /* Slightly lighter gray color on hover */
+}
 
-        .song {
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+.tabcontent {
+    display: none;
+}
 
-        .song iframe {
-            border-radius: 12px;
-            opacity: 0; /* Hide initially */
-            transition: opacity 0.3s ease-in-out; /* Add transition for smoother loading */
-        }
+.song {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        .song.loaded iframe {
-            opacity: 1; /* Show when loaded */
-        }
+.song iframe {
+    border-radius: 12px;
+    opacity: 0; /* Hide initially */
+    transition: opacity 0.3s ease-in-out; /* Add transition for smoother loading */
+}
 
-        .song p {
-            color: #ccc; /* Description text color */
-            font-weight: bold; /* Bold text */
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Tyler, The Creator Discography Explained</h1>
-    <div class="container">
-        <!-- Navigation tabs -->
-        <div class="tabs">
-            <button class="tablinks" onclick="openTab(event, 'wolf')">WOLF</button>
-            <button class="tablinks" onclick="openTab(event, 'cherry_bomb')">CHERRY BOMB</button>
-            <button class="tablinks" onclick="openTab(event, 'flower_boy')">FLOWER BOY</button>
-            <button class="tablinks" onclick="openTab(event, 'goblin')">GOBLIN</button>
-            <button class="tablinks" onclick="openTab(event, 'igor')">IGOR</button>
-            <button class="tablinks" onclick="openTab(event, 'call_me')">CALL ME IF YOU GET LOST: The Estate Sale</button>
-        </div>
-        <!-- Song embeds and descriptions -->
-        <div id="wolf" class="tabcontent">
-            <!-- Add embedded Spotify player and description for each song from WOLF -->
-            <!-- Sample song -->
-            <div class="song">
-                <iframe src="SPOTIFY_URL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <p>Description for song 1 from WOLF</p>
-            </div>
-        </div>
-        <!-- Add more tabcontent sections for other albums -->
-    </div>
-    <script>
-        function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
-</body>
-</html>
+.song.loaded iframe {
+    opacity: 1; /* Show when loaded */
+}
+
+.song p {
+    color: #ccc; /* Description text color */
+    font-weight: bold; /* Bold text */
+    margin-top: 10px;
+    font-size: 14px; /* Adjust font size */
+}
+```
+
+These changes should enhance the visual appeal and readability of the page.
