@@ -1,12 +1,10 @@
-Sure, here's the updated CSS for improved UI:
 
-```css
 body {
     font-family: 'Roboto', sans-serif; /* Use Roboto font */
     font-weight: 400; /* Regular font weight */
     margin: 0;
     padding: 0;
-    background-color: #000; /* Black background color */
+    background-color: #000 !important; /* Black background color */
     color: #fff; /* Text color */
     text-align: center;
 }
@@ -77,4 +75,4 @@ h1 {
 }
 ```
 
-These changes should enhance the visual appeal and readability of the page.
+These adjustments should ensure a black background and improve the appearance of the text. Let me know if you need further refinements!
