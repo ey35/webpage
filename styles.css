@@ -111,4 +111,17 @@ h1 {
         transform: rotate(360deg);
     }
 }
+.made-by {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.made-by img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
 /* Rest of the CSS remains unchanged */
