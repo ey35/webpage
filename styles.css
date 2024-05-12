@@ -11,7 +11,7 @@
             font-weight: 400; /* Regular font weight */
             margin: 0;
             padding: 0;
-            background-color: #1e1e1e; /* Dark background color */
+            background-color: #000; /* Black background color */
             color: #fff; /* Text color */
             text-align: center;
         }
@@ -36,7 +36,7 @@
         }
 
         .tablinks {
-            background-color: #ff5722; /* Orange color */
+            background-color: #333; /* Dark gray color */
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -47,7 +47,7 @@
         }
 
         .tablinks:hover {
-            background-color: #ff7043; /* Darker orange color on hover */
+            background-color: #555; /* Slightly lighter gray color on hover */
         }
 
         .tabcontent {
