@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Text color */
 }
 
 h1 {
     text-align: center;
+    color: #fff; /* Title text color */
 }
 
 .container {
@@ -40,6 +43,5 @@ h1 {
 }
 
 .song p {
-    color: #666;
-    font-style: italic;
+    color: #ccc; /* Description text color */
 }
