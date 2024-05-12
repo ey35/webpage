@@ -3,23 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing Site</title>
+    <title>Tyler, The Creator - Discography</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
-    <h1>Welcome to the Testing Site!</h1>
-</header>
-
-<main>
-    <p>This is a simple testing website. You can use it to experiment with HTML and CSS.</p>
-    <p>Feel free to modify the content and styling to suit your needs.</p>
-</main>
-
-<footer>
-    <p>Testing Site - &copy; 2024</p>
-</footer>
-
+    <div class="container">
+        <!-- Navigation tabs -->
+        <div class="tabs">
+            <button class="tablinks" onclick="openTab(event, 'wolf')">WOLF</button>
+            <button class="tablinks" onclick="openTab(event, 'cherry_bomb')">CHERRY BOMB</button>
+            <button class="tablinks" onclick="openTab(event, 'flower_boy')">FLOWER BOY</button>
+            <button class="tablinks" onclick="openTab(event, 'goblin')">GOBLIN</button>
+            <button class="tablinks" onclick="openTab(event, 'igor')">IGOR</button>
+            <button class="tablinks" onclick="openTab(event, 'call_me')">CALL ME IF YOU GET LOST: The Estate Sale</button>
+        </div>
+        <!-- Song embeds and descriptions -->
+        <div id="wolf" class="tabcontent">
+            <!-- Add embedded Spotify player and description for each song from WOLF -->
+            <!-- Song 1 -->
+            <div class="song">
+                <iframe src="SPOTIFY_URL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p>Description for song 1 from WOLF</p>
+            </div>
+            <!-- Add more songs if needed -->
+        </div>
+        <div id="cherry_bomb" class="tabcontent">
+            <!-- Add embedded Spotify player and description for each song from CHERRY BOMB -->
+            <!-- Song 1 -->
+            <div class="song">
+                <iframe src="SPOTIFY_URL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p>Description for song 1 from CHERRY BOMB</p>
+            </div>
+            <!-- Add more songs if needed -->
+        </div>
+        <div id="flower_boy" class="tabcontent">
+            <!-- Add embedded Spotify player and description for each song from FLOWER BOY -->
+            <!-- Song 1 -->
+            <div class="song">
+                <iframe src="SPOTIFY_URL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p>Description for song 1 from FLOWER BOY</p>
+            </div>
+            <!-- Add more songs if needed -->
+        </div>
+        <div id="goblin" class="tabcontent">
+            <!-- Add embedded Spotify player and description for each song from GOBLIN -->
+            <!-- Song 1 -->
+            <div class="song">
+                <iframe src="SPOTIFY_URL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p>Description for song 1 from GOBLIN</p>
+            </div>
+            <!-- Add more songs if needed -->
+        </div>
+        <div id="igor" class="tabcontent">
+            <!-- Add embedded Spotify player and description for each song from IGOR -->
+            <!-- Song 1 -->
+            <div class="song">
+                <iframe src="SPOTIFY_URL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p>Description for song 1 from IGOR</p>
+            </div>
+            <!-- Add more songs if needed -->
+        </div>
+        <div id="call_me" class="tabcontent">
+            <!-- Add embedded Spotify player and description for each song from CALL ME IF YOU GET LOST: The Estate Sale -->
+            <!-- Song 1 -->
+            <div class="song">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4ydmav4vl7hebadtfZtMrg?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>Description for song 1 from CALL ME IF YOU GET LOST: The Estate Sale</p>
+            </div>
+            <!-- Add more songs if needed -->
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
