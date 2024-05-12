@@ -6,8 +6,8 @@ body {
     background-color: #000 !important; /* Black background color */
     color: #fff; /* Text color */
     text-align: center;
-    overflow: hidden; /* Hide scroll bars */
 }
+
 
 h1 {
     margin-top: 40px;
@@ -111,14 +111,4 @@ h1 {
         transform: rotate(360deg);
     }
 }
-body {
-    font-family: 'Roboto', sans-serif; /* Use Roboto font */
-    font-weight: 400; /* Regular font weight */
-    margin: 0;
-    padding: 0;
-    background-color: #000 !important; /* Black background color */
-    color: #fff; /* Text color */
-    text-align: center;
-}
-
 /* Rest of the CSS remains unchanged */
