@@ -99,15 +99,15 @@ h1 {
 }
 
 .loading img {
-    width: 200px; /* Adjust width of the image */
-    animation: spin 5s linear infinite; /* Spin animation */
+    width: 150px; /* Adjust width of the image */
+    animation: spin 1s linear infinite; /* Spin animation */
 }
 
 @keyframes spin {
-    0% {
+    from {
         transform: rotate(0deg);
     }
-    100% {
+    to {
         transform: rotate(360deg);
     }
 }
